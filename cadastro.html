@@ -11,15 +11,46 @@
         <link rel="stylesheet" href="css/fontawesome.min.css">
     </head>
     <body class="text-center">
-		<nav class="navbar navbar-expand navbar-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container">
-				
-				<a href="index.html">
-					<img src="./imagem/logo-menor-sem-fundo.png" height="40" width="" alt="">
-					<h1 style="margin-left: 10px;" class="navbar-brand">UNILAB</h1>
+				<a class="navbar-brand" href="#">
+					<img class="rounded-circle" src="imagem/unilabsimbolo.png" width="30" height="30"> 
+					<a class="title" href="#">Unilab</a>
 				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					   
+						<li class="nav-item">
+							<a class="nav-link" href="#">Homologar</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Recurços</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">voluntários</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sobre</a>
+						</li>
+						<li class="nav-item dropdown md-auto" id="menu">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Entrar
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Cadastrar</a>
+								<a class="dropdown-item" href="#">Logar</a>
+							</div>
+						</li>
+					</ul>
+				</div>
 			</div>
-        </nav>
+		</nav>
         <div class="login borda_redonda">
 			<div class="form">
 				<form class="form-signin">

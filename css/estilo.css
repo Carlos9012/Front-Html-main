@@ -48,6 +48,12 @@ bofy {
     width: 100%;
   }
 }
+@media (min-width: 992px){
+    #menu{
+      position: absolute;
+      right: 5%;
+    }
+}
 .login-img{
   width: 50%;
   border-bottom-right-radius: 15px;
@@ -91,7 +97,6 @@ bofy {
 ul li a{
 	color: rgb(247, 240, 240) !important;
   font-size: 20px;
-
 }
 ul li div a{
 	color: rgb(20, 19, 19) !important;
@@ -233,4 +238,12 @@ button a{
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.title{
+  font-size: 22px;
+  padding-right: 25px;
+	color: rgb(247, 240, 240) !important;
+}
+.title:hover {
+	text-decoration: none;
 }
